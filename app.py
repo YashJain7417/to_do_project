@@ -27,7 +27,7 @@ def submit_todo_item():
         "description": item_desc
     })
 
-    return "Item added successfully ✅ <br><a href='/'>Go Back</a>"
+    return "yeah, Item added successfully ✅ <br><a href='/'>Go Back</a>"
 
 @app.route("/gettodos", methods=["GET"])
 def get_todos():
